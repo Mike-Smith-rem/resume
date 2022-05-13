@@ -1,0 +1,107 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{欧阳奎}
+
+\basicInfo{
+  \email{2772509238@qq.com} \textperiodcentered\ 
+%   \phone{(+86) 13367220097} \textperiodcentered\ 
+  \github[Mike-Smith-rem]{https://github.com/Mike-Smith-rem}}
+ 
+\section{\faGraduationCap  教育背景}
+\datedsubsection{\textbf{北京航空航天大学}, 北京}{2019 -- 至今}
+\textit{在读本科生} \space
+计算机科学与技术, 预计 2023 年 6 月毕业
+
+\section{\faUsers 个人项目}
+
+\begin{onehalfspacing}
+\subsection{\textbf{FreeTalk}
+}
+基于MySQL的师生课程交流平台
+\begin{itemize}
+\item 前端采用Vue架构，后端使用Django框架
+\item 主要负责页面设计，构建Vue样式
+\item 使用了组件Element UI进行页面优化
+\end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+\subsection{\textbf{PaperDaily}
+}
+面向专家-企业的需求对接uni-app
+\begin{itemize}
+\item 前端采用Vue架构，后端使用Django框架
+\item 主要负责前端构建
+\item 使用了Thorui进行设计
+\end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+\subsection{\textbf{编译器设计}}
+基于C编程语言(SysY)的编译器设计，不包括其他的库
+\begin{itemize}
+
+\item 实现语法分析、代码生成、运行结果等过程
+\item 使用Java语言进行设计，通过文件IO模拟编译器运行
+\item 代码生成中采用PCode，即自行设计需要生成的目的代码以及解释器
+\end{itemize}
+
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+\subsection{\textbf{MOS}}
+简单的小型操作系统
+\begin{itemize}
+\item 基本能实现内存管理和进程管理
+\item C语言实现简单的OS shell
+\end{itemize}
+
+\end{onehalfspacing}
+
+\section{\faCogs\  技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: 主要熟悉Java语言，对于其线程调用相关相对了解；了解C/C++语言；了解Python；了解Ruby语言，能够利用Rails进行简单Web开发
+  \item 平台: 了解基本的Linux指令
+  \item 移动开发：熟悉基本的Web开发。熟悉前端Vue架构，了解JavaScript，熟悉HTML、CSS等基本编程。熟悉uni-app开发。了解AJAX基本交互，能够利用HBuilder X、PyCharm等工具对uni-app进行开发。
+  \item 开发工具：熟悉JetBrains工具，熟悉GitHub开发管理
+\end{itemize}
+
+\section{\faDatabase 获奖情况}
+\datedline{
+\textbf{2020年国家励志奖学金}
+}{2020 年9 月}
+\datedline{
+\textbf{2020年学习优秀奖学金-二等奖}
+}{2020年9月}
+\datedline{
+\textbf{2020年社会实践优秀奖学金}
+}{2020年9月}
+\datedline{
+\textbf{2022年蓝桥杯省级一等奖}
+}{2022年4月}
+% \datedline{
+% \textbf{第25届CCF-CSP软件能力认证(单次排名11.27\%, 累计排名12.69\%)}}{2022年3月}
+\section{\faEdit \ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{社会实践}：参加过挑战杯红旅赛道;志愿时长80小时;获得"社会实践先进单位"称号
+  \item \textbf{语言}: 英语 - CET6
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
